@@ -1,0 +1,40 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "import",
+    "jsx-a11y",
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+    "newline-before-return": "warn",
+    "no-shadow": "warn",
+    "no-console": "warn",
+    "no-plusplus": "warn",
+    "react/prop-types": "warn",
+    "consistent-return": "warn",
+    "no-unused-expressions": "warn",
+    "react/require-default-props": "warn",
+    "react/destructuring-assignment": "warn",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    "max-len": [ "warn", { "code": 120 } ],
+    "array-bracket-spacing": [ "warn", "always" ],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "prefer-const": "warn",
+    "no-underscore-dangle": "warn",
+    "no-use-before-define": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error"
+  },
+  "extends": [
+    "airbnb",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:jsx-a11y/recommended"
+  ]
+}

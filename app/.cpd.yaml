@@ -1,0 +1,20 @@
+languages:
+  - javascript
+  - jsx
+  - sass
+files:
+  - "src/**/*"
+output: "jscpd-report.xml"
+exclude:
+  - "**/*.min.js"
+  - "**/*.js.snap"
+limit: 2.0
+reporter: xml
+xsl-href:
+  - "jscpd-template.xsl"
+languages-exts:
+    javascript:
+        - es
+        - es5
+        - es6
+        - es7
