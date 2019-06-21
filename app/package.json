@@ -15,9 +15,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src --config .eslintrc"
+    "lint": "eslint ./src --config .eslintrc",
+    "test:coverage": "yarn test -- --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
