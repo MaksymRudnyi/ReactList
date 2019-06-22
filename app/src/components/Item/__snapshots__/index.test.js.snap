@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item should match snapshot 1`] = `
+<Container>
+  <Logo />
+  <Content>
+    <Name>
+      Company one
+    </Name>
+    <p>
+      City: 
+      Berlin
+    </p>
+    <p>
+      Speciality: 
+      <span
+        key="Excavations"
+      >
+        Excavations
+        , 
+      </span>
+      <span
+        key="Plumbing"
+      >
+        Plumbing
+        , 
+      </span>
+      <span
+        key="Electrical"
+      >
+        Electrical
+        , 
+      </span>
+    </p>
+  </Content>
+</Container>
+`;

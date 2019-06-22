@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should match snapshot 1`] = `
+<Container>
+  <Item
+    city="Berlin"
+    id={1}
+    key="1"
+    logo=""
+    name="Company one"
+    speciality={
+      Array [
+        "Excavations",
+        "Plumbing",
+        "Electrical",
+      ]
+    }
+  />
+  <Item
+    city="Munich"
+    id={2}
+    key="2"
+    logo=""
+    name="Company two"
+    speciality={
+      Array [
+        "Excavations",
+        "Electrical",
+      ]
+    }
+  />
+</Container>
+`;
+
+exports[`List should match snapshot with empty data 1`] = `
+<Container>
+  <h2>
+    Sorry, there are no items.
+  </h2>
+</Container>
+`;

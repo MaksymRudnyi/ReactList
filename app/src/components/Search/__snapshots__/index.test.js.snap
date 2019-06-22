@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should match snapshot 1`] = `
+<Input
+  autoFocus={true}
+  onChange={[Function]}
+  placeholder="Company name (min. 3 chars)"
+  type="text"
+/>
+`;
+
+exports[`Search should match snapshot with predefined term 1`] = `
+<Input
+  autoFocus={true}
+  onChange={[Function]}
+  placeholder="Company name (min. 3 chars)"
+  type="text"
+  value="search term"
+/>
+`;
