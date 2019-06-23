@@ -1,5 +1,5 @@
 {
   "hooks": {
-    "pre-push": "yarn lint && yarn jscpd && yarn test"
+    "pre-push": "yarn lint && yarn jscpd && yarn test:ci"
   }
 }
