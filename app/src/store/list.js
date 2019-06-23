@@ -21,5 +21,19 @@ export default {
 			city: 'Berlin',
 			speciality: ['Water', 'Electrical'],
 		},
+		{
+			id: 4,
+			name: 'Company two and three',
+			logo: '',
+			city: 'Berlin',
+			speciality: ['Excavations', 'Bricks'],
+		},
+		{
+			id: 5,
+			name: 'Special Provider comp',
+			logo: '',
+			city: 'Berlin',
+			speciality: [],
+		},
 	]
 }

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary should render children 1`] = `ReactWrapper {}`;
+
+exports[`ErrorBoundary should render error view when children throws error 1`] = `ReactWrapper {}`;

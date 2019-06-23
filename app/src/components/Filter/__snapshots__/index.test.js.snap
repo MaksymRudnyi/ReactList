@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item should match snapshot 1`] = `
+<Content>
+  <Label
+    key="00"
+  >
+    <input
+      name="0"
+      onChange={[MockFunction]}
+      type="checkbox"
+      value="0"
+    />
+    0
+  </Label>
+  <Label
+    key="11"
+  >
+    <input
+      name="1"
+      onChange={[MockFunction]}
+      type="checkbox"
+      value="1"
+    />
+    1
+  </Label>
+  <Label
+    key="22"
+  >
+    <input
+      name="2"
+      onChange={[MockFunction]}
+      type="checkbox"
+      value="2"
+    />
+    2
+  </Label>
+</Content>
+`;

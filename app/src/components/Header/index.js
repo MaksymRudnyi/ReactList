@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Filter from '../../components/Filter';
 import Search from '../../components/Search';
@@ -21,4 +22,9 @@ const Header = ({searchTerm, specialities, onChange, onFilterChange}) => (
 
 export default Header
 
-
+Header.propTypes = {
+	searchTerm: PropTypes.string,
+	specialities: PropTypes.objectOf(PropTypes.bool),
+	onFilterChange: PropTypes.func.isRequired,
+	onChange: PropTypes.func.isRequired,
+};

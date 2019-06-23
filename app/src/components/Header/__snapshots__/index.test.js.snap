@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item should match snapshot 1`] = `
+<Container>
+  <Content>
+    <Search
+      onChange={[MockFunction]}
+      term=""
+    />
+    <Filter
+      onFilterChange={[MockFunction]}
+      specialities={
+        Array [
+          "Excavations",
+          "Plumbing",
+          "Electrical",
+        ]
+      }
+    />
+  </Content>
+</Container>
+`;

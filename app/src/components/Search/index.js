@@ -17,4 +17,3 @@ Search.propTypes = {
 	term: PropTypes.string,
 	onChange: PropTypes.func.isRequired,
 };
-	

@@ -5,7 +5,7 @@ import { Content, Label } from './styles';
 
 const Filter = ({ specialities, onFilterChange }) => (
 	<Content>
-		{specialities.map((speciality, index) => (
+		{Object.keys(specialities).map((speciality, index) => (
 			<Label key={speciality+index}>
 				<input
 					type="checkbox"
@@ -23,7 +23,7 @@ export default Filter;
 
 Filter.propTypes = {
 	onFilterChange: PropTypes.func.isRequired,
-	specialities: PropTypes.arrayOf(PropTypes.string),
+	specialities: PropTypes.objectOf(PropTypes.bool),
 };
 
 

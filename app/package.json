@@ -24,7 +24,7 @@
     "test:ci": "CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint ./src --config .eslintrc",
-    "test:coverage": "yarn test -- --coverage"
+    "test:coverage": "yarn test -u ./src --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
