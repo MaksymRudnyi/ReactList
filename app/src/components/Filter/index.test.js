@@ -3,18 +3,18 @@ import toJson from 'enzyme-to-json';
 
 import { shallow } from 'enzyme';
 
-import Filter from './';
+import Filter from '.';
 
 describe('Item', () => {
-	let sut;
-	let props = {
-		specialities: ['Excavations', 'Plumbing', 'Electrical'],
-		onFilterChange: jest.fn(),
-	};
+  let sut;
+  const props = {
+    specialities: [ 'Excavations', 'Plumbing', 'Electrical' ],
+    onFilterChange: jest.fn(),
+  };
 
-	it('should match snapshot', () => {
-		sut = shallow(<Filter {...props} />);
+  it('should match snapshot', () => {
+    sut = shallow(<Filter {...props} />);
 
-		expect(toJson(sut)).toMatchSnapshot();
-	});
+    expect(toJson(sut)).toMatchSnapshot();
+  });
 });

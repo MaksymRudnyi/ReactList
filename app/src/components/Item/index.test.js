@@ -3,21 +3,21 @@ import toJson from 'enzyme-to-json';
 
 import { shallow } from 'enzyme';
 
-import Item from './';
+import Item from '.';
 
 describe('Item', () => {
-	let sut;
-	let props = {
-		id: 1,
-		name: 'Company one',
-		logo: '',
-		city: 'Berlin',
-		speciality: ['Excavations', 'Plumbing', 'Electrical'],
-	};
+  let sut;
+  const props = {
+    id: 1,
+    name: 'Company one',
+    logo: '',
+    city: 'Berlin',
+    speciality: [ 'Excavations', 'Plumbing', 'Electrical' ],
+  };
 
-	it('should match snapshot', () => {
-		sut = shallow(<Item {...props} />);
+  it('should match snapshot', () => {
+    sut = shallow(<Item {...props} />);
 
-		expect(toJson(sut)).toMatchSnapshot();
-	});
+    expect(toJson(sut)).toMatchSnapshot();
+  });
 });

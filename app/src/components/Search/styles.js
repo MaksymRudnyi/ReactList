@@ -12,5 +12,5 @@ const Input = styled.input`
 Input.displayName = 'Input';
 
 export {
-	Input,
+  Input,
 };

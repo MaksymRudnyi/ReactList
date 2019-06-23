@@ -7,7 +7,7 @@ export const AppContext = React.createContext(DefaultContext);
 export const AppContextProvider = AppContext.Provider;
 export const AppContextConsumer = AppContext.Consumer;
 
-export const withAppContext = WrappedComponent => {
+export const withAppContext = (WrappedComponent) => {
   class WithAppContext extends React.Component {
     render() {
       return (
@@ -20,8 +20,8 @@ export const withAppContext = WrappedComponent => {
     }
   }
 
-	WithAppContext.displayName = `WithAppContext(${getDisplayName(
-    WrappedComponent
+  WithAppContext.displayName = `WithAppContext(${getDisplayName(
+    WrappedComponent,
   )})`;
 
   return WithAppContext;

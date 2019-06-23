@@ -7,7 +7,7 @@ const Container = styled.header`
 Container.displayName = 'Container';
 
 const Content = styled.div`
-	max-width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 15px;
   display: flex;
@@ -17,6 +17,6 @@ const Content = styled.div`
 Content.displayName = 'Content';
 
 export {
-	Container,
-	Content,
+  Container,
+  Content,
 };

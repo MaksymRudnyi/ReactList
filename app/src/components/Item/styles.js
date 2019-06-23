@@ -11,29 +11,29 @@ const Container = styled.div`
 Container.displayName = 'Container';
 
 const Logo = styled.div`
-	width: 120px;
-	height: 120px;
-	min-width: 120px;
-	background: #1e1e1e;
-	margin-right: 15px;
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  background: #1e1e1e;
+  margin-right: 15px;
 `;
 Logo.displayName = 'Logo';
 
 const Content = styled.div`
-	
+  
 `;
 Content.displayName = 'Content';
 
 const Name = styled.p`
-	font-weight: bold;
-	font-size: 18px;
-	margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
 `;
 Name.displayName = 'Name';
 
 export {
-	Container,
-	Logo,
-	Content,
-	Name,
+  Container,
+  Logo,
+  Content,
+  Name,
 };

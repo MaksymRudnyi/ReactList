@@ -7,11 +7,11 @@ const Content = styled.div`
 Content.displayName = 'Content';
 
 const Label = styled.label`
-	margin-right: 10px;
+  margin-right: 10px;
 `;
 Label.displayName = 'Label';
 
 export {
-	Content,
-	Label,
+  Content,
+  Label,
 };

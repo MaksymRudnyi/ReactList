@@ -2,31 +2,34 @@
 
 exports[`Item should match snapshot 1`] = `
 <Container>
-  <Logo />
+  <Logo
+    logo=""
+  />
   <Content>
     <Name>
       Company one
     </Name>
     <p>
-      City: 
+      City:
+       
       Berlin
     </p>
     <p>
-      Speciality: 
+      Speciality:
       <span
-        key="Excavations"
+        key="Excavations1"
       >
         Excavations
         , 
       </span>
       <span
-        key="Plumbing"
+        key="Plumbing1"
       >
         Plumbing
         , 
       </span>
       <span
-        key="Electrical"
+        key="Electrical1"
       >
         Electrical
         , 

@@ -114,10 +114,10 @@ exports[`App should match snapshot 1`] = `
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-ifAKCX",
                         "isStatic": true,
-                        "lastClassName": "AsjsQ",
+                        "lastClassName": "dgQGHR",
                         "rules": Array [
                           "
-	max-width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 15px;
   display: flex;
@@ -139,7 +139,7 @@ exports[`App should match snapshot 1`] = `
                   forwardedRef={null}
                 >
                   <div
-                    className="sc-ifAKCX AsjsQ"
+                    className="sc-ifAKCX dgQGHR"
                   >
                     <Search
                       onChange={[Function]}
@@ -242,7 +242,7 @@ exports[`App should match snapshot 1`] = `
                             className="sc-bdVaJa bsHmJl"
                           >
                             <Label
-                              key="Excavations0"
+                              key="Excavations"
                             >
                               <StyledComponent
                                 forwardedComponent={
@@ -252,10 +252,10 @@ exports[`App should match snapshot 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-bwzfXH",
                                       "isStatic": true,
-                                      "lastClassName": "bPhkaX",
+                                      "lastClassName": "czactv",
                                       "rules": Array [
                                         "
-	margin-right: 10px;
+  margin-right: 10px;
 ",
                                       ],
                                     },
@@ -272,7 +272,7 @@ exports[`App should match snapshot 1`] = `
                                 forwardedRef={null}
                               >
                                 <label
-                                  className="sc-bwzfXH bPhkaX"
+                                  className="sc-bwzfXH czactv"
                                 >
                                   <input
                                     name="Excavations"
@@ -285,7 +285,7 @@ exports[`App should match snapshot 1`] = `
                               </StyledComponent>
                             </Label>
                             <Label
-                              key="Plumbing1"
+                              key="Plumbing"
                             >
                               <StyledComponent
                                 forwardedComponent={
@@ -295,10 +295,10 @@ exports[`App should match snapshot 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-bwzfXH",
                                       "isStatic": true,
-                                      "lastClassName": "bPhkaX",
+                                      "lastClassName": "czactv",
                                       "rules": Array [
                                         "
-	margin-right: 10px;
+  margin-right: 10px;
 ",
                                       ],
                                     },
@@ -315,7 +315,7 @@ exports[`App should match snapshot 1`] = `
                                 forwardedRef={null}
                               >
                                 <label
-                                  className="sc-bwzfXH bPhkaX"
+                                  className="sc-bwzfXH czactv"
                                 >
                                   <input
                                     name="Plumbing"
@@ -328,7 +328,7 @@ exports[`App should match snapshot 1`] = `
                               </StyledComponent>
                             </Label>
                             <Label
-                              key="Electrical2"
+                              key="Electrical"
                             >
                               <StyledComponent
                                 forwardedComponent={
@@ -338,10 +338,10 @@ exports[`App should match snapshot 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-bwzfXH",
                                       "isStatic": true,
-                                      "lastClassName": "bPhkaX",
+                                      "lastClassName": "czactv",
                                       "rules": Array [
                                         "
-	margin-right: 10px;
+  margin-right: 10px;
 ",
                                       ],
                                     },
@@ -358,7 +358,7 @@ exports[`App should match snapshot 1`] = `
                                 forwardedRef={null}
                               >
                                 <label
-                                  className="sc-bwzfXH bPhkaX"
+                                  className="sc-bwzfXH czactv"
                                 >
                                   <input
                                     name="Electrical"
@@ -371,7 +371,7 @@ exports[`App should match snapshot 1`] = `
                               </StyledComponent>
                             </Label>
                             <Label
-                              key="Water3"
+                              key="Water"
                             >
                               <StyledComponent
                                 forwardedComponent={
@@ -381,10 +381,10 @@ exports[`App should match snapshot 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-bwzfXH",
                                       "isStatic": true,
-                                      "lastClassName": "bPhkaX",
+                                      "lastClassName": "czactv",
                                       "rules": Array [
                                         "
-	margin-right: 10px;
+  margin-right: 10px;
 ",
                                       ],
                                     },
@@ -401,7 +401,7 @@ exports[`App should match snapshot 1`] = `
                                 forwardedRef={null}
                               >
                                 <label
-                                  className="sc-bwzfXH bPhkaX"
+                                  className="sc-bwzfXH czactv"
                                 >
                                   <input
                                     name="Water"
@@ -414,7 +414,7 @@ exports[`App should match snapshot 1`] = `
                               </StyledComponent>
                             </Label>
                             <Label
-                              key="Bricks4"
+                              key="Bricks"
                             >
                               <StyledComponent
                                 forwardedComponent={
@@ -424,10 +424,10 @@ exports[`App should match snapshot 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-bwzfXH",
                                       "isStatic": true,
-                                      "lastClassName": "bPhkaX",
+                                      "lastClassName": "czactv",
                                       "rules": Array [
                                         "
-	margin-right: 10px;
+  margin-right: 10px;
 ",
                                       ],
                                     },
@@ -444,7 +444,7 @@ exports[`App should match snapshot 1`] = `
                                 forwardedRef={null}
                               >
                                 <label
-                                  className="sc-bwzfXH bPhkaX"
+                                  className="sc-bwzfXH czactv"
                                 >
                                   <input
                                     name="Bricks"
@@ -604,7 +604,9 @@ exports[`App should match snapshot 1`] = `
                     <div
                       className="sc-EHOje ckrhxW"
                     >
-                      <Logo>
+                      <Logo
+                        logo=""
+                      >
                         <StyledComponent
                           forwardedComponent={
                             Object {
@@ -613,14 +615,14 @@ exports[`App should match snapshot 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-bZQynM",
                                 "isStatic": true,
-                                "lastClassName": "fgOHEH",
+                                "lastClassName": "cTmgMO",
                                 "rules": Array [
                                   "
-	width: 120px;
-	height: 120px;
-	min-width: 120px;
-	background: #1e1e1e;
-	margin-right: 15px;
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  background: #1e1e1e;
+  margin-right: 15px;
 ",
                                 ],
                               },
@@ -635,9 +637,10 @@ exports[`App should match snapshot 1`] = `
                             }
                           }
                           forwardedRef={null}
+                          logo=""
                         >
                           <div
-                            className="sc-bZQynM fgOHEH"
+                            className="sc-bZQynM cTmgMO"
                           />
                         </StyledComponent>
                       </Logo>
@@ -650,10 +653,10 @@ exports[`App should match snapshot 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-gzVnrw",
                                 "isStatic": true,
-                                "lastClassName": "hBPyzG",
+                                "lastClassName": "bmNeJQ",
                                 "rules": Array [
                                   "
-	
+  
 ",
                                 ],
                               },
@@ -670,7 +673,7 @@ exports[`App should match snapshot 1`] = `
                           forwardedRef={null}
                         >
                           <div
-                            className="sc-gzVnrw hBPyzG"
+                            className="sc-gzVnrw bmNeJQ"
                           >
                             <Name>
                               <StyledComponent
@@ -681,12 +684,12 @@ exports[`App should match snapshot 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-htoDjs",
                                       "isStatic": true,
-                                      "lastClassName": "iXCbWY",
+                                      "lastClassName": "Bodub",
                                       "rules": Array [
                                         "
-	font-weight: bold;
-	font-size: 18px;
-	margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
 ",
                                       ],
                                     },
@@ -703,32 +706,33 @@ exports[`App should match snapshot 1`] = `
                                 forwardedRef={null}
                               >
                                 <p
-                                  className="sc-htoDjs iXCbWY"
+                                  className="sc-htoDjs Bodub"
                                 >
                                   Company one
                                 </p>
                               </StyledComponent>
                             </Name>
                             <p>
-                              City: 
+                              City:
+                               
                               Berlin
                             </p>
                             <p>
-                              Speciality: 
+                              Speciality:
                               <span
-                                key="Excavations"
+                                key="Excavations1"
                               >
                                 Excavations
                                 , 
                               </span>
                               <span
-                                key="Plumbing"
+                                key="Plumbing1"
                               >
                                 Plumbing
                                 , 
                               </span>
                               <span
-                                key="Electrical"
+                                key="Electrical1"
                               >
                                 Electrical
                                 , 
@@ -790,7 +794,9 @@ exports[`App should match snapshot 1`] = `
                     <div
                       className="sc-EHOje ckrhxW"
                     >
-                      <Logo>
+                      <Logo
+                        logo=""
+                      >
                         <StyledComponent
                           forwardedComponent={
                             Object {
@@ -799,14 +805,14 @@ exports[`App should match snapshot 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-bZQynM",
                                 "isStatic": true,
-                                "lastClassName": "fgOHEH",
+                                "lastClassName": "cTmgMO",
                                 "rules": Array [
                                   "
-	width: 120px;
-	height: 120px;
-	min-width: 120px;
-	background: #1e1e1e;
-	margin-right: 15px;
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  background: #1e1e1e;
+  margin-right: 15px;
 ",
                                 ],
                               },
@@ -821,9 +827,10 @@ exports[`App should match snapshot 1`] = `
                             }
                           }
                           forwardedRef={null}
+                          logo=""
                         >
                           <div
-                            className="sc-bZQynM fgOHEH"
+                            className="sc-bZQynM cTmgMO"
                           />
                         </StyledComponent>
                       </Logo>
@@ -836,10 +843,10 @@ exports[`App should match snapshot 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-gzVnrw",
                                 "isStatic": true,
-                                "lastClassName": "hBPyzG",
+                                "lastClassName": "bmNeJQ",
                                 "rules": Array [
                                   "
-	
+  
 ",
                                 ],
                               },
@@ -856,7 +863,7 @@ exports[`App should match snapshot 1`] = `
                           forwardedRef={null}
                         >
                           <div
-                            className="sc-gzVnrw hBPyzG"
+                            className="sc-gzVnrw bmNeJQ"
                           >
                             <Name>
                               <StyledComponent
@@ -867,12 +874,12 @@ exports[`App should match snapshot 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-htoDjs",
                                       "isStatic": true,
-                                      "lastClassName": "iXCbWY",
+                                      "lastClassName": "Bodub",
                                       "rules": Array [
                                         "
-	font-weight: bold;
-	font-size: 18px;
-	margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
 ",
                                       ],
                                     },
@@ -889,26 +896,27 @@ exports[`App should match snapshot 1`] = `
                                 forwardedRef={null}
                               >
                                 <p
-                                  className="sc-htoDjs iXCbWY"
+                                  className="sc-htoDjs Bodub"
                                 >
                                   Company two
                                 </p>
                               </StyledComponent>
                             </Name>
                             <p>
-                              City: 
+                              City:
+                               
                               Munich
                             </p>
                             <p>
-                              Speciality: 
+                              Speciality:
                               <span
-                                key="Excavations"
+                                key="Excavations2"
                               >
                                 Excavations
                                 , 
                               </span>
                               <span
-                                key="Electrical"
+                                key="Electrical2"
                               >
                                 Electrical
                                 , 
@@ -970,7 +978,9 @@ exports[`App should match snapshot 1`] = `
                     <div
                       className="sc-EHOje ckrhxW"
                     >
-                      <Logo>
+                      <Logo
+                        logo=""
+                      >
                         <StyledComponent
                           forwardedComponent={
                             Object {
@@ -979,14 +989,14 @@ exports[`App should match snapshot 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-bZQynM",
                                 "isStatic": true,
-                                "lastClassName": "fgOHEH",
+                                "lastClassName": "cTmgMO",
                                 "rules": Array [
                                   "
-	width: 120px;
-	height: 120px;
-	min-width: 120px;
-	background: #1e1e1e;
-	margin-right: 15px;
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  background: #1e1e1e;
+  margin-right: 15px;
 ",
                                 ],
                               },
@@ -1001,9 +1011,10 @@ exports[`App should match snapshot 1`] = `
                             }
                           }
                           forwardedRef={null}
+                          logo=""
                         >
                           <div
-                            className="sc-bZQynM fgOHEH"
+                            className="sc-bZQynM cTmgMO"
                           />
                         </StyledComponent>
                       </Logo>
@@ -1016,10 +1027,10 @@ exports[`App should match snapshot 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-gzVnrw",
                                 "isStatic": true,
-                                "lastClassName": "hBPyzG",
+                                "lastClassName": "bmNeJQ",
                                 "rules": Array [
                                   "
-	
+  
 ",
                                 ],
                               },
@@ -1036,7 +1047,7 @@ exports[`App should match snapshot 1`] = `
                           forwardedRef={null}
                         >
                           <div
-                            className="sc-gzVnrw hBPyzG"
+                            className="sc-gzVnrw bmNeJQ"
                           >
                             <Name>
                               <StyledComponent
@@ -1047,12 +1058,12 @@ exports[`App should match snapshot 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-htoDjs",
                                       "isStatic": true,
-                                      "lastClassName": "iXCbWY",
+                                      "lastClassName": "Bodub",
                                       "rules": Array [
                                         "
-	font-weight: bold;
-	font-size: 18px;
-	margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
 ",
                                       ],
                                     },
@@ -1069,26 +1080,27 @@ exports[`App should match snapshot 1`] = `
                                 forwardedRef={null}
                               >
                                 <p
-                                  className="sc-htoDjs iXCbWY"
+                                  className="sc-htoDjs Bodub"
                                 >
                                   Special option
                                 </p>
                               </StyledComponent>
                             </Name>
                             <p>
-                              City: 
+                              City:
+                               
                               Berlin
                             </p>
                             <p>
-                              Speciality: 
+                              Speciality:
                               <span
-                                key="Water"
+                                key="Water3"
                               >
                                 Water
                                 , 
                               </span>
                               <span
-                                key="Electrical"
+                                key="Electrical3"
                               >
                                 Electrical
                                 , 
@@ -1150,7 +1162,9 @@ exports[`App should match snapshot 1`] = `
                     <div
                       className="sc-EHOje ckrhxW"
                     >
-                      <Logo>
+                      <Logo
+                        logo=""
+                      >
                         <StyledComponent
                           forwardedComponent={
                             Object {
@@ -1159,14 +1173,14 @@ exports[`App should match snapshot 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-bZQynM",
                                 "isStatic": true,
-                                "lastClassName": "fgOHEH",
+                                "lastClassName": "cTmgMO",
                                 "rules": Array [
                                   "
-	width: 120px;
-	height: 120px;
-	min-width: 120px;
-	background: #1e1e1e;
-	margin-right: 15px;
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  background: #1e1e1e;
+  margin-right: 15px;
 ",
                                 ],
                               },
@@ -1181,9 +1195,10 @@ exports[`App should match snapshot 1`] = `
                             }
                           }
                           forwardedRef={null}
+                          logo=""
                         >
                           <div
-                            className="sc-bZQynM fgOHEH"
+                            className="sc-bZQynM cTmgMO"
                           />
                         </StyledComponent>
                       </Logo>
@@ -1196,10 +1211,10 @@ exports[`App should match snapshot 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-gzVnrw",
                                 "isStatic": true,
-                                "lastClassName": "hBPyzG",
+                                "lastClassName": "bmNeJQ",
                                 "rules": Array [
                                   "
-	
+  
 ",
                                 ],
                               },
@@ -1216,7 +1231,7 @@ exports[`App should match snapshot 1`] = `
                           forwardedRef={null}
                         >
                           <div
-                            className="sc-gzVnrw hBPyzG"
+                            className="sc-gzVnrw bmNeJQ"
                           >
                             <Name>
                               <StyledComponent
@@ -1227,12 +1242,12 @@ exports[`App should match snapshot 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-htoDjs",
                                       "isStatic": true,
-                                      "lastClassName": "iXCbWY",
+                                      "lastClassName": "Bodub",
                                       "rules": Array [
                                         "
-	font-weight: bold;
-	font-size: 18px;
-	margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
 ",
                                       ],
                                     },
@@ -1249,26 +1264,27 @@ exports[`App should match snapshot 1`] = `
                                 forwardedRef={null}
                               >
                                 <p
-                                  className="sc-htoDjs iXCbWY"
+                                  className="sc-htoDjs Bodub"
                                 >
                                   Company two and three
                                 </p>
                               </StyledComponent>
                             </Name>
                             <p>
-                              City: 
+                              City:
+                               
                               Berlin
                             </p>
                             <p>
-                              Speciality: 
+                              Speciality:
                               <span
-                                key="Excavations"
+                                key="Excavations4"
                               >
                                 Excavations
                                 , 
                               </span>
                               <span
-                                key="Bricks"
+                                key="Bricks4"
                               >
                                 Bricks
                                 , 
@@ -1325,7 +1341,9 @@ exports[`App should match snapshot 1`] = `
                     <div
                       className="sc-EHOje ckrhxW"
                     >
-                      <Logo>
+                      <Logo
+                        logo=""
+                      >
                         <StyledComponent
                           forwardedComponent={
                             Object {
@@ -1334,14 +1352,14 @@ exports[`App should match snapshot 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-bZQynM",
                                 "isStatic": true,
-                                "lastClassName": "fgOHEH",
+                                "lastClassName": "cTmgMO",
                                 "rules": Array [
                                   "
-	width: 120px;
-	height: 120px;
-	min-width: 120px;
-	background: #1e1e1e;
-	margin-right: 15px;
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  background: #1e1e1e;
+  margin-right: 15px;
 ",
                                 ],
                               },
@@ -1356,9 +1374,10 @@ exports[`App should match snapshot 1`] = `
                             }
                           }
                           forwardedRef={null}
+                          logo=""
                         >
                           <div
-                            className="sc-bZQynM fgOHEH"
+                            className="sc-bZQynM cTmgMO"
                           />
                         </StyledComponent>
                       </Logo>
@@ -1371,10 +1390,10 @@ exports[`App should match snapshot 1`] = `
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-gzVnrw",
                                 "isStatic": true,
-                                "lastClassName": "hBPyzG",
+                                "lastClassName": "bmNeJQ",
                                 "rules": Array [
                                   "
-	
+  
 ",
                                 ],
                               },
@@ -1391,7 +1410,7 @@ exports[`App should match snapshot 1`] = `
                           forwardedRef={null}
                         >
                           <div
-                            className="sc-gzVnrw hBPyzG"
+                            className="sc-gzVnrw bmNeJQ"
                           >
                             <Name>
                               <StyledComponent
@@ -1402,12 +1421,12 @@ exports[`App should match snapshot 1`] = `
                                     "componentStyle": ComponentStyle {
                                       "componentId": "sc-htoDjs",
                                       "isStatic": true,
-                                      "lastClassName": "iXCbWY",
+                                      "lastClassName": "Bodub",
                                       "rules": Array [
                                         "
-	font-weight: bold;
-	font-size: 18px;
-	margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
 ",
                                       ],
                                     },
@@ -1424,18 +1443,19 @@ exports[`App should match snapshot 1`] = `
                                 forwardedRef={null}
                               >
                                 <p
-                                  className="sc-htoDjs iXCbWY"
+                                  className="sc-htoDjs Bodub"
                                 >
                                   Special Provider comp
                                 </p>
                               </StyledComponent>
                             </Name>
                             <p>
-                              City: 
+                              City:
+                               
                               Berlin
                             </p>
                             <p>
-                              Speciality: 
+                              Speciality:
                             </p>
                           </div>
                         </StyledComponent>

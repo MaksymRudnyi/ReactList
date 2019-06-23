@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default class ErrorBoundary extends React.PureComponent {
   static propTypes = {
-    children: PropTypes.any.isRequired,
+    children: PropTypes.node.isRequired,
   };
 
   state = {

@@ -8,5 +8,5 @@ const Container = styled.div`
 Container.displayName = 'Container';
 
 export {
-	Container
+  Container,
 };

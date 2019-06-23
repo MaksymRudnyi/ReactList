@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import ErrorBoundary from './';
+import ErrorBoundary from '.';
 
 describe('ErrorBoundary', () => {
   it('should render children', () => {
